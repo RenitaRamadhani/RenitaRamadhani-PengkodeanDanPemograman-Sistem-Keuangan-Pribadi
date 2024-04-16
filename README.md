@@ -41,6 +41,13 @@ Data yang saya pilih adalah aplikasi rencana keuangan atau budget planner, denga
 5.	Dalam koding git bash yang telah dilakukan, muncul link aplikasi rencana keuangan berupa website yang akan saya kembangkan (http://127.0.0.1:8000/).
 6.	Kemudian dari link tersebut saya melakukan modifikasi melalui folder-folder yang tersedia dengan mengubah kode program menggunakan aplikasi Notepad++.
 
+# Deskripsi Perbandingan dengan Referensi Pembuatan
+Perubahan yang dilakukan terkait :
+1. Perubahan logo yang di desain sendiri
+2. Perubahan bahasa
+3. Perubahan jenis font tulisan
+4. Mengubah warna tampilan
+   
 # Tampilan sebelum
 ![Screenshot 2023-12-03 204221](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/269a00f4-bd20-4651-b715-c9a036f62e29)
 
@@ -105,14 +112,19 @@ Data yang saya pilih adalah aplikasi rencana keuangan atau budget planner, denga
 # DFD Dari Aplikasi RENZ
 
 ![image](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/534a807a-da52-4748-9a8a-d880c9f6140d)
+Pada gambar diatas menjelaskan bahwa diagram konteks di dalam aplikasi sistem manajemen keuangan pribadi terdapat 1 entitas yaitu pengguna, entitas pengguna ini bertugas untuk menjalankan aplikasi seperti register, login, mengolah input kas masuk dan keluar, dan melihat laporan kas masuk dan keluar.
 
 ![image](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/f96dfc12-6640-488f-98bb-d340c312276c)
+Gambar diatas merupakan data flow diagram level 1 yang menjaskan bahwa entitas pengguna dapat melakukan register, login input kas dan melihat laporan kas kemudian disimpan ditabel masing-masing.
 
 ![image](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/2f40a48a-7811-4fe1-9ac2-212c070024af)
+Dari data flow diagram level 2 diatas menjaskan bahwa entitas pengguna dapat melakukan register dan disimpan di tabel users kemudian melukan login dengan data username dan password yang diambil dari tabel users.
 
 ![image](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/66b3b56d-ee58-45ee-8499-6d5d58f294ae)
+Gambaran diatas merupakan bentuk dari data flow diagram level 2 yang menjelaskan bahwa entitas pengguna dapat mengolah data kas masuk kemudian disimpan ditabel kas masuk dan mengolah data kas keluar kemudian disimpan ditabel kas keluar.
 
 ![image](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/779752ac-6697-416c-a725-be6dc7e32ebc)
+Dari DFD level 2 diatas menjelaskan bahwa entitas pengguna dapat melihat laporan data dari keluar dan masuknya kas diambil dari tabel kas keluar dan kas masuk.
 
 ![image](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/344ce53b-d9ea-4799-8ffa-329812435bef)
 
