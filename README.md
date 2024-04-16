@@ -1,4 +1,4 @@
-# Sistem keungan pribadi
+# Sistem Keungan Pribadi
 Website Aplikasi Renz telah dirancang sebagai platfrom perencanaan keuangan atau alat pengelolaan anggaran yang komprehensif
 
 # Pendahuluan 
@@ -13,7 +13,7 @@ Pengkodean dan Pemrograman
 Kelas D (S1 Akuntansi)
 
 # Judul
-RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi
+Sistem Keuangan Pribadi
 
 # Referensi Github 
 https://github.com/ibishek/personal-finanace-system
