@@ -1,61 +1,56 @@
-## About Personal Finance Management System
+# sistem keungan pribadi
+Website Aplikasi Renz telah dirancang sebagai platfrom perencanaan keuangan atau alat pengelolaan anggaran yang komprehensif
+# Pendahuluan 
+Dibuat untuk memenuhi tugas mata kuliah Pengkodean dan Pemrograman
 
-Personal finance is a single-user financial records keeping system. It encourages you to maintain your overspending habits. At first, you have to create an estimated spending amount called a budget for a definite term. After that, it assists you to keep track of how much you have earned and spent within that budget. You can get detailed reports via GUI charts powered by Chart js.
+Renita Ramadhani
 
-## Dashboard
+12030122140270
 
-![Dashboard Image](https://repository-images.githubusercontent.com/407355401/8d6267ae-6c7e-4423-a8b2-b0cb4d01f923)
+Pengkodean dan Pemrograman 
 
-## Required Applications
+Kelas D (S1 Akuntansi)
+# Judul
+RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi
 
--   [XMPP](https://www.apachefriends.org/) or any web server for php code execution
--   [Node.js](https://nodejs.org/)
--   [Composer](https://getcomposer.org/)
--   [VS Code](https://code.visualstudio.com/) or any text editor/IDE
--   [Git Bash](https://git-scm.com/downloads)
+# Referensi Github 
+https://github.com/ibishek/personal-finanace-system
 
-## Install
+# Deskripsi
+Fokus utama dari sistem ini adalah menyediakan solusi alternatif bagi perorangan atau individu dalam mengelola dan merencanakan keuangan pribadi mereka secara efektif. Melalui tampilan halaman utama sistem ini, pengguna dapat dengan mudah mengakses informasi terinci mengenai alokasi dana keuangan, hasil rekapitulasi, serta rincian pemasukan dan pengeluaran selama suatu periode tertentu.
 
--   `$ git clone https://github.com/ibishek/personal-finanace-system.git`
--   `$ cd project-folder`
--   `$ composer install`
--   Rename `.env.example` to `.env`
--   `$ php artisan key:generate`
--   Simply create a database named `personal_finance` or
--   Create a database and insert credentials inside .env file
--   `$ php artisan migrate`
--   `$ php artisan db:seed`
--   `$ php artisan serve`
--   User-email: `info@jondoe.com` and User-password: `jondoe` or click on default login button
+# Tahap Pengembangan Aplikasi
+Untuk dapat mengembangkan aplikasi keuangan yang akan saya rancang, harus melalui tahapan berikut:
+1.	Mencari data github berbagai sistem informasi melalui internet. 
+Data yang saya pilih adalah aplikasi rencana keuangan atau budget planner, dengan link berikut ini: https://github.com/ibishek/personal-finanace-system
+2.	Memasukkan file github aplikasi rencana keuangan ke device dengan menggunakan aplikasi git bash (git bash here), dengan perintah sebagai berikut:
+•	$ git clone https://github.com/ibishek/personal-finanace-system.git
+•	$ cd personal-finanace-system
+•	$ composer install
+•	Ubah .env.example Menjadi .env
+•	$ php artisan key:generate
+•	Buat database dengan nama personal_finance 
+•	$ php artisan migrate
+•	$ php artisan db:seed
+•	$ php artisan serve
+•	User-email: info@jondoe.com dan User-password: jondoe
+3.	Setelah itu, akan muncul folder dengan nama “personal-finance-system” 
+4.	Berikutnya, akan muncul database pada aplikasi XAMPP
+5.	Dalam koding git bash yang telah dilakukan, muncul link aplikasi rencana keuangan berupa website yang akan saya kembangkan (http://127.0.0.1:8000/).
+6.	Kemudian dari link tersebut saya melakukan modifikasi melalui folder-folder yang tersedia dengan mengubah kode program menggunakan aplikasi Notepad++.
 
-## Schema Design
+#
+![Screenshot 2023-12-03 205546](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/fed1e94d-bc62-45d8-b1d1-0c40e8fff98d)
+![Screenshot 2023-12-03 205522](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/f9dd57ee-5a4d-4e77-b5a6-fc63454521d9)
+![Screenshot 2023-12-03 205414](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/53d2eb6c-9a65-46c0-b29e-3b771fe68b45)
+![Screenshot 2023-12-03 205343](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/7f571c9d-17a0-493c-9cd7-0288ea6c611a)
+![Screenshot 2023-12-03 205204](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/bd41a7d6-4446-4489-88eb-4eceef8350c0)
+![Screenshot 2023-12-03 205141](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/aa8f88d3-c667-4411-8686-84f62cc69c7b)
+![Screenshot 2023-12-03 205008](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/cebcadf3-ad3b-47ed-9b3b-0a2c3e2277ad)
+![Screenshot 2023-12-03 204853](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/1eb13d0a-d2c7-4d20-9483-3a473a75e0be)
+![Screenshot 2023-12-03 204545](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/b986dd4b-cfbc-4212-bcfd-889e437b8aef)
+![Screenshot 2023-12-03 204525](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/97141b42-ff65-4900-ab81-63c859645838)
+![Screenshot 2023-12-03 204505](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/4e00b630-724a-4276-beb6-5ae92b7ca274)
+![Screenshot 2023-12-03 204451](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/322120b0-ca52-46b5-9043-b7847e5c4e2f)
+![Screenshot 2023-12-03 204221](https://github.com/RenitaRamadhani/RenitaRamadhani-PengkodeanDanPemograman-Sistem-Keuangan-Pribadi/assets/153142982/5f340445-f4f5-46c2-85de-afd611bac67e)
 
-You can see the schema design from [here](https://dbdiagram.io/d/6142dfc5825b5b014604a4f8).
-
-## Libraries, Frameworks and System
-
--   Accounting js for formating numbers/amounts _v0.4.2 public\vendor\js\accounting.min.js_
--   Bootstrap CSS Framework _v4.6.0 CDN_
--   Chart js _v3.5.1 CDN_
--   Font-awesome _v4.7.0 CDN_
--   jQuery JavaScript Library _v3.6.0 CDN_
--   Laravel PHP Framework _v8.61.0_
--   Particles js for snowfall effect in the login page _v2.0.0 public\vendor\js\particles.min.js with particles.settings.js and settings.json_
--   Popperjs _v2.10.1 CDN_
--   Sass to process scss _reources\sass\dev.scss_
-
-## Font
-
--   Poppins _googlefonts_
-
-## Bugs and Errors
-
-If you discover any bugs and errors within this project, please do not hesitate to raise an [issue](https://github.com/ibishek/personal-finanace-system/issues/new/choose). All issues are corrected as soon as possible. Your simple effort could help us to make this project better. By default debuggin mode is false, however, you can change it in .env.
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within this project, please raise an [issue](https://github.com/ibishek/personal-finanace-system/issues/new/choose). All security vulnerabilities will be addressed as soon as possible. Your simple effort could help us to make this project more secure.
-
-## License
-
-This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
