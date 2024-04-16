@@ -21,25 +21,11 @@ https://github.com/ibishek/personal-finanace-system
 # Deskripsi
 Fokus utama dari sistem ini adalah menyediakan solusi alternatif bagi perorangan atau individu dalam mengelola dan merencanakan keuangan pribadi mereka secara efektif. Melalui tampilan halaman utama sistem ini, pengguna dapat dengan mudah mengakses informasi terinci mengenai alokasi dana keuangan, hasil rekapitulasi, serta rincian pemasukan dan pengeluaran selama suatu periode tertentu.
 
-# Tahap Pengembangan Aplikasi
-Untuk dapat mengembangkan aplikasi keuangan yang akan saya rancang, harus melalui tahapan berikut:
-1.	Mencari data github berbagai sistem informasi melalui internet. 
-Data yang saya pilih adalah aplikasi rencana keuangan atau budget planner, dengan link berikut ini: https://github.com/ibishek/personal-finanace-system
-2.	Memasukkan file github aplikasi rencana keuangan ke device dengan menggunakan aplikasi git bash (git bash here), dengan perintah sebagai berikut:
-•	$ git clone https://github.com/ibishek/personal-finanace-system.git
-•	$ cd personal-finanace-system
-•	$ composer install
-•	Ubah .env.example Menjadi .env
-•	$ php artisan key:generate
-•	Buat database dengan nama personal_finance 
-•	$ php artisan migrate
-•	$ php artisan db:seed
-•	$ php artisan serve
-•	User-email: info@jondoe.com dan User-password: jondoe
-3.	Setelah itu, akan muncul folder dengan nama “personal-finance-system” 
-4.	Berikutnya, akan muncul database pada aplikasi XAMPP
-5.	Dalam koding git bash yang telah dilakukan, muncul link aplikasi rencana keuangan berupa website yang akan saya kembangkan (http://127.0.0.1:8000/).
-6.	Kemudian dari link tersebut saya melakukan modifikasi melalui folder-folder yang tersedia dengan mengubah kode program menggunakan aplikasi Notepad++.
+# Panduan instalasi
+Download Zip Github, Masukan SQL Kedalam XAMPP buat data baru bernama personal_finance dan impor file sql ke dalamnya selanjutnya buka http://localhost/personal-finance-system.php
+
+# Panduan Pengeditan
+Buka file yang ingin di edit dan tekan CTRL + F untuk mencari keyword yang ingin diubah dan lakukan pengubahan.
 
 # Deskripsi Perbandingan dengan Referensi Pembuatan
 Perubahan yang dilakukan terkait :
